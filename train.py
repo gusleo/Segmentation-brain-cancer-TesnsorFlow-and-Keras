@@ -122,8 +122,9 @@ if __name__ == "__main__":
     #model_to_load = "/Users/mikenourian/Desktop/113repo/Brain-tumor-segmentation/pretrained_weights/ResUnet.epoch_02.hdf5"
     #save=None
 
+    model_to_load = "./ResUnet.10_1.454.hdf5"
     #compile the model
-    brain_seg = Training(batch_size=4,nb_epoch=100)
+    brain_seg = Training(batch_size=4,nb_epoch=100,load_model_resume_training=model_to_load)
 
     print("number of trainabale parameters:",brain_seg.model.count_params())
     #print(brain_seg.model.summary())
