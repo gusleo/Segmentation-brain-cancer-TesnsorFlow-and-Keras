@@ -1,0 +1,5 @@
+/data/Brats17TrainingData/HGG/
+/data/Brats17TrainingData/LGG/
+
+*.npy
+*.nii.gz
