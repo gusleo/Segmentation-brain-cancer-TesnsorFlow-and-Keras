@@ -119,11 +119,11 @@ if __name__ == "__main__":
     # The file that was located from before
 
     #model_to_load="Models/ResUnet.04_0.646.hdf5"  #this is from before, by default
-    model_to_load = "/Users/mikenourian/Desktop/113repo/Brain-tumor-segmentation/pretrained_weights/ResUnet.epoch_02.hdf5"
+    #model_to_load = "/Users/mikenourian/Desktop/113repo/Brain-tumor-segmentation/pretrained_weights/ResUnet.epoch_02.hdf5"
     #save=None
 
     #compile the model
-    brain_seg = Training(batch_size=4,nb_epoch=3,load_model_resume_training=model_to_load)
+    brain_seg = Training(batch_size=4,nb_epoch=10)
 
     print("number of trainabale parameters:",brain_seg.model.count_params())
     #print(brain_seg.model.summary())
