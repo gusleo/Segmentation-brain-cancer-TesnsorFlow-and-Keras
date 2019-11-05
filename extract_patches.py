@@ -214,9 +214,9 @@ if __name__ == '__main__':
     
     #Paths for Brats2017 dataset
     #path_HGG = glob('Brats2017/Brats17TrainingData/HGG/**')
-    path_HGG = glob('/Users/mikenourian/Desktop/113repo/Brain-tumor-segmentation/MICCAI_BraTS17_Data_Training/HGG/**')
+    path_HGG = glob('/data/Brats17TrainingData/HGG/**')
     #path_LGG = glob('Brats2017/Brats17TrainingData/LGG/**')
-    path_LGG = glob('/Users/mikenourian/Desktop/113repo/Brain-tumor-segmentation/MICCAI_BraTS17_Data_Training/LGG/**')
+    path_LGG = glob('/data/Brats17TrainingData/LGG/**')
 
 
     path_all=path_HGG+path_LGG
