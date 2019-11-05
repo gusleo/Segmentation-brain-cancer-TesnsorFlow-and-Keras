@@ -198,7 +198,7 @@ if __name__ == "__main__":
     #set arguments
     model_to_load="ResUnet.100_1.729.hdf5" 
     #paths for the testing data
-     path_HGG = glob('./data/Brats17TrainingData/HGG/**')
+    path_HGG = glob('./data/Brats17TrainingData/HGG/**')
     #path_LGG = glob('Brats2017/Brats17TrainingData/LGG/**')
     path_LGG = glob('./data/Brats17TrainingData/LGG/**')
 
