@@ -123,7 +123,7 @@ if __name__ == "__main__":
     #save=None
 
     #compile the model
-    brain_seg = Training(batch_size=4,nb_epoch=10)
+    brain_seg = Training(batch_size=4,nb_epoch=100)
 
     print("number of trainabale parameters:",brain_seg.model.count_params())
     #print(brain_seg.model.summary())
