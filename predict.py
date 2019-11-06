@@ -212,7 +212,7 @@ if __name__ == "__main__":
     brain_seg_pred = Prediction(batch_size_test=2 ,load_model_path=model_to_load)
 
     #predicts each volume and save the results in np array
-    brain_seg_pred.predict_multiple_volumes(test_path[200:290],save=False,show=True)
+    brain_seg_pred.predict_multiple_volumes(test_path[200:290],save=True,show=True)
     
 
 
